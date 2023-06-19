@@ -1,0 +1,65 @@
+    <!--FORM STARTS HERE -->
+      <form action="http://itins3.madisoncollege.edu/echo.php"
+            method="post"
+            name="newVolunteerForm"
+            id="newVolunteerForm">
+      <fieldset>
+        <!--FIRST NAME -->
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+        <br /><br />
+        <!--LAST NAME -->
+        <label for="lastName" class="setWidth">Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+        <br /><br />
+        <!--HOME ADDRESS -->
+        <label for="homeAddress">Home Address</label>
+        <input type="text" name="homeAddress" id="homeAddress" />
+        <br /><br />
+        <!--EMAIL -->
+        <label for="emailAddress">Email Address</label>
+        <input type="text" name="emailAddress" id="emailAddress">
+        <br /><br />
+        <!--PHONE -->
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" name="phoneNumber" id="phoneNumber">
+        <br /><br />
+        <!--BEST WAY TO CONTACT YOU -->
+        <label for="bestContact">What's the best way to contact you?</label>
+        <br />
+        <input type="radio" name="bestContact" value="email"
+               id="bestContactEmail"/>
+        <label for="bestContactEmail" id="bestContactEmail">Email</label>
+        &emsp;
+        <input type="radio" name="bestContact" value="phone"
+               id="bestContactPhone"/>
+        <label for="bestContactPhone" id="bestContactPhone">Phone</label>
+        <br /><br />
+        <!--STUDENT -->
+        <label for="studentStatus">Are you a student?</label>
+        <br />
+        <input type="radio" name="studentStatus" value="yes"
+               id="studentStatusYes"/>
+        <label for="studentStatusYes" id="studentStatusYes">Yes</label>
+        &emsp;
+        <input type="radio" name="studentStatus" value="no"
+               id="studentStatusNo"/>
+        <label for="studentStatusNo" id="studentStatusNo">No</label>
+        <br /><br />
+        <!--COMMENT BOX -->
+        <label for="commentBox">If you have anything else you would like to add,
+            you may add it here:</label>
+        <br />
+        <textarea name="commentBox" id="commentBox" rows="12" cols="85"
+                  maxlength="1500"></textarea>
+        <br /><br />
+        <!--SUBMIT BUTTONS -->
+        <p id="buttonsParaph">
+          <input type="submit" value="Submit Form" />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="Clear Form" />
+        </p>
+        <!-- -->
+      </fieldset>
+    </form>
+    <!--END OF FORM -->
